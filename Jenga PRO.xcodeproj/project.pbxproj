@@ -14,6 +14,9 @@
 		FAD67A8F277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A8D277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld */; };
 		FAD67A91277B1FFD003287B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD67A90277B1FFD003287B1 /* Assets.xcassets */; };
 		FAD67A94277B1FFD003287B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD67A92277B1FFD003287B1 /* LaunchScreen.storyboard */; };
+		FAD67AA3277B2D98003287B1 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67AA2277B2D98003287B1 /* Block.swift */; };
+		FAD67AA7277B2EF9003287B1 /* JengaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67AA6277B2EF9003287B1 /* JengaGame.swift */; };
+		FAD67AAB277B336B003287B1 /* TowerOfBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67AAA277B336B003287B1 /* TowerOfBlocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FAD67A90277B1FFD003287B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD67A93277B1FFD003287B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD67A95277B1FFD003287B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD67AA2277B2D98003287B1 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		FAD67AA6277B2EF9003287B1 /* JengaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JengaGame.swift; sourceTree = "<group>"; };
+		FAD67AAA277B336B003287B1 /* TowerOfBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerOfBlocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		FAD67A83277B1FE8003287B1 /* Jenga PRO */ = {
 			isa = PBXGroup;
 			children = (
+				FAD67A95277B1FFD003287B1 /* Info.plist */,
 				FAD67A9F277B20A6003287B1 /* Controller */,
 				FAD67A9E277B209D003287B1 /* View */,
 				FAD67A9D277B2094003287B1 /* Model */,
@@ -70,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD67A92277B1FFD003287B1 /* LaunchScreen.storyboard */,
-				FAD67A95277B1FFD003287B1 /* Info.plist */,
 				FAD67A90277B1FFD003287B1 /* Assets.xcassets */,
 				FAD67A86277B1FE8003287B1 /* SceneDelegate.swift */,
 				FAD67A8D277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld */,
@@ -82,6 +88,9 @@
 		FAD67A9D277B2094003287B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FAD67AA6277B2EF9003287B1 /* JengaGame.swift */,
+				FAD67AAA277B336B003287B1 /* TowerOfBlocks.swift */,
+				FAD67AA2277B2D98003287B1 /* Block.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,7 +183,10 @@
 			files = (
 				FAD67A89277B1FE8003287B1 /* ViewController.swift in Sources */,
 				FAD67A85277B1FE8003287B1 /* AppDelegate.swift in Sources */,
+				FAD67AA3277B2D98003287B1 /* Block.swift in Sources */,
+				FAD67AA7277B2EF9003287B1 /* JengaGame.swift in Sources */,
 				FAD67A87277B1FE8003287B1 /* SceneDelegate.swift in Sources */,
+				FAD67AAB277B336B003287B1 /* TowerOfBlocks.swift in Sources */,
 				FAD67A8F277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
