@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD67A85277B1FE8003287B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A84277B1FE8003287B1 /* AppDelegate.swift */; };
+		FAD67A87277B1FE8003287B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A86277B1FE8003287B1 /* SceneDelegate.swift */; };
+		FAD67A89277B1FE8003287B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A88277B1FE8003287B1 /* ViewController.swift */; };
+		FAD67A8C277B1FE8003287B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD67A8A277B1FE8003287B1 /* Main.storyboard */; };
+		FAD67A8F277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A8D277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld */; };
+		FAD67A91277B1FFD003287B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD67A90277B1FFD003287B1 /* Assets.xcassets */; };
+		FAD67A94277B1FFD003287B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD67A92277B1FFD003287B1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD67A81277B1FE8003287B1 /* Jenga PRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jenga PRO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD67A84277B1FE8003287B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD67A86277B1FE8003287B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD67A88277B1FE8003287B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD67A8B277B1FE8003287B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD67A8E277B1FE8003287B1 /* Jenga_PRO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jenga_PRO.xcdatamodel; sourceTree = "<group>"; };
+		FAD67A90277B1FFD003287B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD67A93277B1FFD003287B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD67A95277B1FFD003287B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD67A7E277B1FE8003287B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD67A78277B1FE8003287B1 = {
+			isa = PBXGroup;
+			children = (
+				FAD67A83277B1FE8003287B1 /* Jenga PRO */,
+				FAD67A82277B1FE8003287B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD67A82277B1FE8003287B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A81277B1FE8003287B1 /* Jenga PRO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD67A83277B1FE8003287B1 /* Jenga PRO */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A9F277B20A6003287B1 /* Controller */,
+				FAD67A9E277B209D003287B1 /* View */,
+				FAD67A9D277B2094003287B1 /* Model */,
+				FAD67A9C277B2052003287B1 /* Supporting files */,
+			);
+			path = "Jenga PRO";
+			sourceTree = "<group>";
+		};
+		FAD67A9C277B2052003287B1 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A92277B1FFD003287B1 /* LaunchScreen.storyboard */,
+				FAD67A95277B1FFD003287B1 /* Info.plist */,
+				FAD67A90277B1FFD003287B1 /* Assets.xcassets */,
+				FAD67A86277B1FE8003287B1 /* SceneDelegate.swift */,
+				FAD67A8D277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld */,
+				FAD67A84277B1FE8003287B1 /* AppDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FAD67A9D277B2094003287B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD67A9E277B209D003287B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A8A277B1FE8003287B1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAD67A9F277B20A6003287B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A88277B1FE8003287B1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD67A80277B1FE8003287B1 /* Jenga PRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD67A98277B1FFD003287B1 /* Build configuration list for PBXNativeTarget "Jenga PRO" */;
+			buildPhases = (
+				FAD67A7D277B1FE8003287B1 /* Sources */,
+				FAD67A7E277B1FE8003287B1 /* Frameworks */,
+				FAD67A7F277B1FE8003287B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jenga PRO";
+			productName = "Jenga PRO";
+			productReference = FAD67A81277B1FE8003287B1 /* Jenga PRO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD67A79277B1FE8003287B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAD67A80277B1FE8003287B1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAD67A7C277B1FE8003287B1 /* Build configuration list for PBXProject "Jenga PRO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD67A78277B1FE8003287B1;
+			productRefGroup = FAD67A82277B1FE8003287B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD67A80277B1FE8003287B1 /* Jenga PRO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD67A7F277B1FE8003287B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD67A94277B1FFD003287B1 /* LaunchScreen.storyboard in Resources */,
+				FAD67A91277B1FFD003287B1 /* Assets.xcassets in Resources */,
+				FAD67A8C277B1FE8003287B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD67A7D277B1FE8003287B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD67A89277B1FE8003287B1 /* ViewController.swift in Sources */,
+				FAD67A85277B1FE8003287B1 /* AppDelegate.swift in Sources */,
+				FAD67A87277B1FE8003287B1 /* SceneDelegate.swift in Sources */,
+				FAD67A8F277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD67A8A277B1FE8003287B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD67A8B277B1FE8003287B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD67A92277B1FFD003287B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD67A93277B1FFD003287B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD67A96277B1FFD003287B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD67A97277B1FFD003287B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD67A99277B1FFD003287B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8488GQKLC;
+				INFOPLIST_FILE = "Jenga PRO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wohagy.Jenga-PRO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAD67A9A277B1FFD003287B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8488GQKLC;
+				INFOPLIST_FILE = "Jenga PRO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wohagy.Jenga-PRO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD67A7C277B1FE8003287B1 /* Build configuration list for PBXProject "Jenga PRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD67A96277B1FFD003287B1 /* Debug */,
+				FAD67A97277B1FFD003287B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD67A98277B1FFD003287B1 /* Build configuration list for PBXNativeTarget "Jenga PRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD67A99277B1FFD003287B1 /* Debug */,
+				FAD67A9A277B1FFD003287B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD67A8D277B1FE8003287B1 /* Jenga_PRO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD67A8E277B1FE8003287B1 /* Jenga_PRO.xcdatamodel */,
+			);
+			currentVersion = FAD67A8E277B1FE8003287B1 /* Jenga_PRO.xcdatamodel */;
+			path = Jenga_PRO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD67A79277B1FE8003287B1 /* Project object */;
+}
