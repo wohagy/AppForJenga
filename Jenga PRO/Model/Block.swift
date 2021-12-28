@@ -8,6 +8,14 @@
 import Foundation
 
 struct Block: Equatable {
-    var isUsed: Bool
     let task: String
+    var isUsed: Bool
+    var position: Variant
+    var floor: Int
+    
+    enum Variant {
+        case center
+        case lateral
+        case empty 
+    }
 }

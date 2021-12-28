@@ -8,11 +8,22 @@
 import Foundation
 
 struct Game {
-    private let numberOfBlock = 48
+    let numberOfBlock = 48
     private var tower = TowerOfBlocks(numberOfBlocks: 48)
+    private var numberOfFloor = 48/3 + 1
+    private var numberOfMoves = 0
     private(set) var numberForBlock = 0
     
+    
     mutating func giveNumberForBlock() {
-        numberForBlock = Int.random(in: 1...numberOfBlock)
+        if numberOfMoves % 3 == 0, numberOfMoves != 0 {
+            numberOfFloor += 1
+        }
+        numberOfMoves += 1
+        numberForBlock = Int.random(in: 1...(numberOfBlock-6))
+        tower.replaceUsedBlock(for: (numberForBlock-1), and: numberOfFloor)
+        tower.printingTower(numberOfFloor: numberOfFloor)
     }
+    
+    
 }
